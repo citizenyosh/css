@@ -1,0 +1,243 @@
+ @-moz-document url-prefix("https://forums.overclockers.co.uk/") {
+            html {
+                background-color: #2e3539 !important;
+                background: radial-gradient(black 15%, transparent 16%) 0 0,
+                radial-gradient(black 15%, transparent 16%) 8px 8px,
+                radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px,
+                radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+                background-size: 16px 16px;
+            }
+            /*[adjust width below to preferred size]*/
+            body {
+                max-width: 1400px;
+                margin-left: auto!important;
+                margin-right: auto!important;
+                -webkit-box-shadow: 0px 0px 26px -5px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 0px 0px 26px -5px rgba(0, 0, 0, 0.75);
+                box-shadow: 0px 0px 26px -5px rgba(0, 0, 0, 0.75);
+                border-left: 10px solid #383c41 !important;
+                border-right: 10px solid #383c41 !important;
+            }
+            .p-description {
+                display: none;
+            }
+            .p-navgroup.p-discovery {
+                margin-left: 0px;
+            }
+            .p-navgroup-link:first-of-type {
+                border-left: 1px solid rgba(20, 20, 20, 0.15);
+            }
+            .node-description {
+                display: none;
+            }
+            [data-template*="forum_list"] .p-body-pageContent {
+                border-radius: 8px;
+            }
+            .p-nav .p-nav-inner {
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
+            }
+            .p-sectionLinks .p-sectionLinks-inner {
+                background: #383c41;
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+            }
+            .p-navgroup {
+                background: #383c41;
+            }
+            .p-sectionLinks-list {
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+            }
+            .p-nav-list .p-navEl.is-selected {
+                background: #383c41;
+            }
+            .block-container:not(.block-container--noStripRadius) > :first-child,
+            .block-topRadiusContent,
+            .block-container:not(.block-container--noStripRadius) > .block-body:first-child > .blockLink:first-child {
+                border-radius: 8px;
+            }
+            .node .node-extra--inner {
+                border-radius: 8px;
+            }
+            .button,
+            a.button {
+                border-radius: 4px;
+                transition: 0.8s;
+            }
+            .message--post .message-attribution {
+                padding: 10px 10px;
+                border-bottom: 1px solid #000;
+            }
+            .block--messages .message {
+                border: none;
+                border-radius: 8px;
+            }
+            .block--messages .message-inner:last-of-type .message-cell:first-child {
+                border-bottom-left-radius: 8px;
+            }
+            .message--post .message-attribution {
+                border-bottom: 1px solid #272a2e;
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
+            }
+            .block--messages .message-cell.message-cell--user {
+                border-right: 1px solid #272a2e;
+            }
+            .block-body .node--unread .node-body .node-icon i {
+                filter: grayscale(1);
+            }
+            .block-body .node--unread .node-body .node-icon i {
+                filter: sepia(100%) hue-rotate(180deg) saturate(400%);
+            }
+            .p-header-logo.p-header-logo--image img {
+                vertical-align: bottom;
+                max-width: 100%;
+                filter: grayscale(1);
+            }
+            div.freeShipping {
+                display: none;
+            }
+            .message-actionBar.actionBar .actionBar-action {
+                border: 1px solid #4b5158;
+                background: #272a2e;
+                border-radius: 4px;
+                transition: 1s;
+            }
+            .message-actionBar.actionBar .actionBar-action:hover {
+                border: 1px solid #272a2e;
+                background: #5096ff;
+                border-radius: 4px;
+                transition: 1s;
+                color: #fff;
+            }
+            .p-pageWrapper .message-cell.message-cell--user .message-avatar-wrapper .message-avatar-online {
+                border-color: #5096ff transparent transparent;
+            }
+            .button:not(.button--splitTrigger):hover,
+            a.button:not(.button--splitTrigger):hover,
+            .button.button--splitTrigger > .button-text:hover,
+            a.button.button--splitTrigger > .button-text:hover,
+            .button.button--splitTrigger > .button-menu:hover,
+            a.button.button--splitTrigger > .button-menu:hover,
+            .button:not(.button--splitTrigger):focus,
+            a.button:not(.button--splitTrigger):focus,
+            .button.button--splitTrigger > .button-text:focus,
+            a.button.button--splitTrigger > .button-text:focus,
+            .button.button--splitTrigger > .button-menu:focus,
+            a.button.button--splitTrigger > .button-menu:focus,
+            .button:not(.button--splitTrigger):active,
+            a.button:not(.button--splitTrigger):active,
+            .button.button--splitTrigger > .button-text:active,
+            a.button.button--splitTrigger > .button-text:active,
+            .button.button--splitTrigger > .button-menu:active,
+            a.button.button--splitTrigger > .button-menu:active {
+                background-color: #5096ff !important;
+                border: 1px solid #64a2ff !important;
+                transition: 0.8s;
+            }
+            .buttonGroup > .button:not(:first-child) {
+                border-left: 1px solid transparent;
+            }
+            .buttonGroup > .buttonGroup-buttonWrapper:not(:first-child) > .button {
+                border-left: 1px solid transparent;
+            }
+            .block-container:not(.block-container--noStripRadius) > :first-child,
+            .block-topRadiusContent,
+            .block-container:not(.block-container--noStripRadius) > .block-body:first-child > .blockLink:first-child {
+                border-radius: 8px;
+                padding: 8px;
+                border-bottom: 1px solid #282d36;
+            }
+            .block-container {
+                border-radius: 8px;
+            }
+            .pairs.pairs--rows > dt {
+                color: #b3b3b3 !important;
+            }
+            .block:not(.block--messages) .block-container:not(.block-container--noStripRadius) > .block-body:last-child > .message:last-child .message-inner:last-of-type .message-cell:first-child,
+            .block:not(.block--messages) .block-bottomRadiusContent.message .message-inner:last-of-type .message-cell:first-child,
+            .block:not(.block--messages) .block-bottomRadiusContent > .message:last-child .message-inner:last-of-type .message-cell:first-child {
+                display: none;
+            }
+            .fr-box.fr-basic .fr-toolbar.fr-top {
+                border-radius: 8px;
+            }
+            .fr-box.fr-basic {
+                border-radius: 8px;
+                -moz-border-radius: 8px;
+                -webkit-border-radius: 8px;
+            }
+            .structItemContainer-group.structItemContainer-group--sticky {
+                border-bottom: none;
+            }
+            .filterBar {
+                padding-right: 5px;
+            }
+            .block-header a,
+            .message-name,
+            .button,
+            a.button {
+                text-shadow: 2px 2px 2px #000000;
+            }
+            .message-userBanner.userBanner {
+                border-radius: 5px;
+            }
+            .pairs > dt {
+                color: #b3b3b3;
+            }
+            .p-navgroup-link.p-navgroup-link--user i:after {
+                color: #5096ff;
+            }
+            .collapseTrigger:not(.button).collapseTrigger--block:before {
+                color: #5096ff;
+            }
+            .p-body-pageContent > .tabs--standalone:first-child {
+                border-radius: 8px;
+            }
+            .button.button--icon--bolt > .button-text:before,
+            a.button.button--icon--bolt > .button-text:before {
+                display: none;
+            }
+            .button.button--icon--write > .button-text:before,
+            a.button.button--icon--write > .button-text:before,
+            .button.button--icon--reply > .button-text:before,
+            a.button.button--icon--reply > .button-text:before {
+                display: none;
+            }
+            .button.button--scroll,
+            a.button.button--scroll {
+                border-radius: 50%;
+            }
+            .forum-list-wrapper .block {
+                display: none;
+            }
+            .p-footer-row-opposite {
+                display: none;
+            }
+            .p-navgroup-link.p-navgroup-link--conversations i:after {
+                color: #BF616A;
+            }
+            .p-navgroup-link.p-navgroup-link--alerts i:after {
+                color: #A3BE8C;
+            }
+            .fa-palette:before {
+                color: #D08770;
+            }
+            .p-navgroup-link.p-navgroup-link--search i:after {
+                color: #EBCB8B;
+            }
+            .fr-toolbar .fr-btn-grp.rte-tab--inactive,
+            .fr-toolbar .fr-btn-grp.rte-tab--preview {
+                border-bottom-width: 0px;
+                border-left-width: 0px;
+            }
+            .message-newIndicator,
+            a.message-newIndicator {
+                background: #5096ff;
+                text-shadow: 1px 1px 1px #000000;
+            }
+            img[src$="https://img.overclockers.co.uk/media/image/Banner-EN-noblechairs-DOOM-unbrand_502x97.jpg"] {
+                display: none;
+            }
+        }
